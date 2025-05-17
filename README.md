@@ -1,12 +1,17 @@
-# React + Vite
+Task Manager App is a lightweight React application designed to help users organize and track their daily tasks efficiently. It allows users to create, edit, and update task details including title, description, due date, and status (Pending or Completed). Tasks are stored in the browser’s localStorage, providing persistent data without requiring a backend server.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Technical Details:
 
-Currently, two official plugins are available:
+Frontend: Built using React with functional components and hooks (useState, useEffect) for state management and side effects.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Routing: React Router handles navigation between pages such as Home, Create Task, and Edit Task.
 
-## Expanding the ESLint configuration
+Styling: Tailwind CSS provides utility-first, responsive design and quick UI styling.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Build Tool: Vite is used for fast development and production builds.
+
+Data Storage: Tasks are saved and retrieved from localStorage using simple helper functions (getTasks, saveTasks).
+
+Deployment: Easily deployable on platforms like Vercel or Netlify due to static build output.
+
+This app demonstrates core React concepts and modern frontend development practices, making it a great starter project for learning React, client-side routing, and state persistence.
