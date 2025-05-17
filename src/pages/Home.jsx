@@ -54,7 +54,7 @@ const Home = () => {
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
   return (
-    <div className="bg-orange-900 container mx-auto p-6 max-w-4xl">
+    <div className="container mx-auto p-6 max-w-4xl">
       <h1 className="text-3xl font-bold text-gray-800 mb-6">Manage Your Tasks Effortlessly</h1>
       <button
         onClick={handleAddTask}
